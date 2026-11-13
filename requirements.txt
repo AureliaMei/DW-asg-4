@@ -1,0 +1,9 @@
+aif360==0.6.1
+# AIF360 0.6.1 breaks on pandas 3 (new default string dtype fails its np.issubdtype check) -> stay on pandas 2.x
+pandas==2.3.3
+numpy==2.5.4
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+ipykernel==7.4.0
+nbconvert==7.17.2
